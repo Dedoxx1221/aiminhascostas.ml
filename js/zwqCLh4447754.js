@@ -1,10 +1,9 @@
-<style>
-    .elementor-element-674be37{
-        display: none;
-    }
-</style><script>
-setTimeout(function(){
-  secao1=document.querySelector(".elementor-element-674be37");
- if(null != secao1){secao1.style.display="block";}
- },"0");
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script>
+$('.delay').hide();
+setTimeout(function() {
+$('.delay').show();
+}, 0);
 </script>
